@@ -1,0 +1,49 @@
+---
+name:  MEDIANTEST
+title: Test and Confidence Intervals for the Median
+jrs:   '1.1'
+
+items:
+    - name:  text
+      title: Test and Confidence Intervals for the Median
+      type:  Preformatted
+      
+    - name:  mediantest
+      title: Median test
+      type: Table
+      rows:  1
+      columns:
+        - name: var
+          title: ''
+          type: text
+        - name: Median
+          type: number
+        - name: Statistic
+          type: number
+        - name: p
+          type: number
+          format: zto,pvalue
+        - name: Lower
+          type: number
+        - name: Upper
+          type: number     
+          
+    - name:  medianci
+      title: Confidence Intervals for Median
+      type: Table
+      rows:  3
+      columns:
+        - name: type
+          title: Type
+          type: text    
+        - name: ConfLevel
+          title: Confidence Level
+          type: number
+        - name: Lower
+          title: Lower Limit
+          type: number
+        - name: Upper
+          title: Upper Limit
+          type: number      
+
+...
