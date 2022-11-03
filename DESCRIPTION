@@ -1,12 +1,11 @@
 Package: MEDIANTEST
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Sign test for median and Confidence Intervals
 Version: 0.0.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: João Marôco
+Maintainer: The package maintainer <jpmaroco@gmail.com>
+Description: Sign test for Median and Confidence Intervals
+License: free 
 Encoding: UTF-8
 LazyData: true
 Imports: jmvcore (>= 0.8.5), R6, BSDA
